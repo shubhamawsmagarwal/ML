@@ -175,6 +175,6 @@ function needRefresh(req,res,next){
        
 }
 /******** Listening *************/
-app.listen(3002,process.env.IP,function(res,req){
+app.listen(3001,process.env.IP,function(res,req){
     console.log("Server is running");
 });
